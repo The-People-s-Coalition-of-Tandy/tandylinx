@@ -90,3 +90,8 @@ section{
     width: fit-content;
     margin: auto;
 }
+
+.tandyLinx{
+
+    width: calc(100% - 80px);
+}
