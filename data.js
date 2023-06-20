@@ -1,7 +1,3 @@
-
-
-//  to UPDATE tandyLinx, just change the values in the "data" array
-
 var data = [
     {
         "name" :  '"Into the Blue" by BLUE DISH',
@@ -28,17 +24,3 @@ var data = [
         "url" : "https://www.pcotandy.org/signup.html"
     }//make sure theres no comma at the end of objects or the array
 ];
-
-
-for(let i=0 ; i < data.length ;  i++){
-
-    var current_link_data = data[i]; // cycle through all of the objects in data array
-
-    var button = document.createElement("a"); //create link
-
-    button.className = "link";
-    button.innerHTML = current_link_data.name; // set name from data
-    button.setAttribute('href', current_link_data.url); //set url from data
-
-    document.getElementById("links_container").appendChild(button); //append link to end of container
-}
