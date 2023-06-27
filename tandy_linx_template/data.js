@@ -1,12 +1,13 @@
 
+var artist = "{ARTIST}";
 
-var title = "°​‚​°​‚​°​‚​°​‚​°​‚​°​⌠​ƞ​ɛ​ᶉ​𝐌​𝐈​𝐃​𝐈​𝐕​𝐎​𝐗​#5​…​√​ƞ​ɛ​ᶉ​ß​ʃ​▼​ß​ʃ​°​°​ɱ​‚​°​‚​°​‚​°​‚​°​‚​°​‚​°";
+var title = "{TITLE}" + " by " + artist;
 
-var album_cover_url_src = "./jack_assets/1_cover.png";
+var album_cover_url_src = "./assets/cover.png";
 
-var artist = "Jack Hamill";
+var backgroundColor = "blue";
 
-var backgroundColor = "gray";
+const explosion_invert = true;
 
 var data = [
     {//make sure theres no comma at the end of objects or the array
@@ -15,13 +16,6 @@ var data = [
         "font_color" : "blue",
         "bg_color" : "rgb(200, 200, 200)",
         "hover_color" : "rgb(100 100 180)"
-    },
-    {//make sure theres no comma at the end of objects or the array
-            "name" :  'Apple Music',
-            "url" : "https://tandy.bandcamp.com/album/5",
-            "font_color" : "red",
-            "bg_color" : "rgb(200, 200, 200)",
-            "hover_color" : "rgb(190 90 100)"
     },
     {
         "name" :  "Spotify",

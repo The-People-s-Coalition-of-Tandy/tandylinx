@@ -1,0 +1,112 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10 ch black ridge;
+    padding: 10ch;
+    background-position: 0%;
+    margin: 0px;
+    padding: 0px;
+    /* zoom: .8; */
+    /* -moz-transform: scale(.8);  */
+    
+    /* font-family: Verdana,sans-serif; */
+}
+
+main{
+    border: 10ch black ridge;
+
+    /* border-image: url(./assets/cover.png) 200 round; */
+    /* background-repeat: auto; */
+
+    /* background-color: blue; */
+}
+
+#album_cover_img{
+    width: 100px;
+    border: 2ch black ridge;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.pcot-logo {
+    /* height: 150px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 600px;
+}
+
+header {
+    text-align: center;
+    background-color: azure;
+    border: 2px solid gray;
+    margin-bottom: 30px;
+    padding: 5px;
+    border-radius: 17px;
+    /* width: 50vw; */
+    width: fit-content;
+    min-width: 300px;
+    margin:auto;
+}
+
+.release-name {
+    font-size: 13pt;
+    font-weight: bold;
+    border: 5px blueviolet solid;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.link {
+    /* background-color: rgb(200, 200, 200); */
+    height: 45px;
+    font-size: 18pt;
+    cursor: pointer;
+    border-radius: 100px;
+    border: 3px outset gray;
+    text-decoration: none;
+    text-align: center;
+    /* color: darkgreen; */
+    line-height: 40px;
+    width: 50%;
+    min-width: 350px;
+    /* max-width: 600px;  */
+}
+
+.link:hover, .link:focus {
+    /* background-color: rgb(164, 220, 159); */
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+
+}
+
+footer {
+    padding: 20px;
+}
+
+
+.explosion {
+/* 
+    -webkit-filter: invert(1);
+    filter: invert(1); */
+}
+
+section{
+
+    width: fit-content;
+    margin: auto;
+}
+
+.tandyLinx{
+
+    width: calc(100% - 200px);
+}
