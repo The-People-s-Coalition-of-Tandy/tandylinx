@@ -1,0 +1,49 @@
+
+
+
+
+#links_container{
+    display: grid;
+    justify-content: center;
+}
+
+#welcome_message{
+    /* max-width: 300px; */
+    text-align: center;
+
+}
+
+.grid{
+    display: grid;
+    justify-content: center;
+    gap: 2ch;
+
+}
+
+#output{
+    border: 2ch black solid;
+    min-height: 200px;
+    min-width: 300px;
+    white-space: pre;
+    padding: 3ch;
+    
+}
+
+
+.how_many{
+    margin: 5ch;
+}
+
+#buttons_input_container{
+display: grid;
+/* grid-template-columns: 1fr 1fr 1fr 1fr; */
+justify-content: center;
+gap: 1ch;
+width: 200px;
+}
+
+
+#submit{
+    margin-top: 5ch;
+
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New TandyLinx Data-Array Creator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+
+    <div id="links_container">
+
+        <h1 id="welcome_message"></h1>
+
+        <form action="" class="grid">
+
+            <label for="artist">Artist:</label>
+            <input id="artist"></input>
+            <label for="title">Release Title:</label>
+            <input id="title"></input>
+            <label for="album_cover_url_src">Album Cover Image URL (include https://):</label>
+            <input id="album_cover_url_src"></input>
+            <label for="website_bg_color">Website Background Color:</label>
+            <input id="website_bg_color"></input>
+
+    </form>
+
+    <div class="how_many">
+            <label for="how_many" width="200px">How many Link Buttons do you need? (10 max)</label>
+            <input type="number" name="how_many" id="how_many" min="1" max="10" value="1">
+            <button id="how_many_submit_button">Create Button Info Inputs</button>
+    </div>
+
+
+    <div id="buttons_input_container"></div>
+
+
+
+
+
+     <button type="button" id="submit">Ouput Code</button>
+
+
+
+
+    <div id="output"></div>
+
+
+    </div>
+
+
+
+    <script src="banner_message.js"></script>
+    <script src="create_button_info_inputs.js"></script>
+    <script src="create_js_array.js"></script>
+
+</body>
+</html>
