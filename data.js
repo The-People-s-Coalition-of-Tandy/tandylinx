@@ -1,11 +1,11 @@
 var data = [
     {
-        "name" :  '"Into the Blue" by BLUE DISH',
-        "url" : "https://bluedish.pcotandy.org/"
+        "name" :  'New Single by Jack Hamill!',
+        "url" : "./JackHamill/"
     },
     {
-        "name" :  "Bones Competition",
-        "url" : "https://bones.pcotandy.org/"
+        "name" :  '"Into the Blue" by BLUE DISH',
+        "url" : "https://bluedish.pcotandy.org/"
     },
     {
         "name" :  "PCoT Website",
