@@ -59,7 +59,8 @@ function create_output_array(){
         data_text += '"name" : ' + '"' + current_link_name.value + '"' + "," + new_line;
         data_text += '"url" : ' + '"' +current_link_url.value + '"' + "," + new_line;
         data_text += '"font_color" : ' + '"' + current_link_font_color.value + '"' + "," + new_line;
-        data_text += '"bg_color" : ' + '"' + current_link_bg_color.value + '"' + new_line;
+        data_text += '"bg_color" : ' + '"' + current_link_bg_color.value + '"' + "," + new_line;
+        data_text += '"hover_color" : "rgb(100 100 180)" '+ new_line;
         data_text += "}" + new_line;
         data_text += "]";
         output += data_text;
@@ -72,7 +73,8 @@ function create_output_array(){
         data_text += '"name" : ' + '"' + current_link_name.value + '"' + "," + new_line;
         data_text += '"url" : ' + '"' + current_link_url.value + '"' + "," + new_line;
         data_text += '"font_color" : ' + '"' + current_link_font_color.value + '"' + "," + new_line;
-        data_text += '"bg_color" : ' + '"' + current_link_bg_color.value + '"' + new_line;
+        data_text += '"bg_color" : ' + '"' + current_link_bg_color.value + '"' + "," + new_line;
+        data_text += '"hover_color" : "rgb(100 100 180)" '+ new_line;
         data_text += "},";
         // console.log(data_text);
         output += data_text;
