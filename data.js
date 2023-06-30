@@ -1,7 +1,7 @@
 var data = [
     {
         "name" :  'New Single by Jack Hamill!',
-        "url" : "./JackHamill/"
+        "url" : "./Artists/JackHamill/"
     },
     {
         "name" :  '"Into the Blue" by BLUE DISH',

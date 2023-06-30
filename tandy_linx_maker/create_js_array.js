@@ -61,8 +61,13 @@ function create_output_array(){
         data_text += '"font_color" : ' + '"' + current_link_font_color.value + '"' + "," + new_line;
         data_text += '"bg_color" : ' + '"' + current_link_bg_color.value + '"' + "," + new_line;
         data_text += '"hover_color" : "rgb(100 100 180)" '+ new_line;
-        data_text += "}" + new_line;
-        data_text += "]";
+        data_text += "}," + new_line;
+        data_text += "{" + new_line + '"name" :  "PCoT Website",' + new_line;
+        data_text += '"url" : "https://pcotandy.org",\n "font_color" : "pink",\n "bg_color" : "rgb(200, 200, 200)",\n "hover_color" : "darkgray"\n},\n';
+        data_text += '{\n"name" :  "Get Coalition News",\n "url" : "https://www.pcotandy.org/signup.html",\n "font_color" : "orange",\n "bg_color" : "rgb(200, 200, 200)",\n "hover_color" : "lightblue"\n }\n ]";\n';
+
+
+
         output += data_text;
 
         data_text = "";
