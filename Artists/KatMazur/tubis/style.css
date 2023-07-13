@@ -19,6 +19,7 @@ body {
 main{
     border: 1ch orange ridge;
     margin-top: 40px;
+    background-color: white;
 
     /* border-image: url(./assets/cover.png) 200 round; */
     /* background-repeat: auto; */
