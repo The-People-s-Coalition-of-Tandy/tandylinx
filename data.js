@@ -1,7 +1,7 @@
 var data = [
     {
         "name" :  'Tubis by Kat Mazur!',
-        "url" : "./Artists/KatMazur/"
+        "url" : "./Artists/KatMazur/tubis"
     },
     {
         "name" :  '"Into the Blue" by BLUE DISH',
