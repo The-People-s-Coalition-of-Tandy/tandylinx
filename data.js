@@ -1,7 +1,7 @@
 var data = [
     {
-        "name" :  'New Single by Jack Hamill!',
-        "url" : "./Artists/JackHamill/"
+        "name" :  'Tubis by Kat Mazur!',
+        "url" : "./Artists/KatMazur/"
     },
     {
         "name" :  '"Into the Blue" by BLUE DISH',
