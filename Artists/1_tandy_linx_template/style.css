@@ -1,8 +1,33 @@
+:root{
+    --main-bg-color: brown;
+    /* --main-bg-image: url(./assets/cover.png); */
+
+    /* --linx-menu-bg-color: blue; */
+
+    --album-cover: url(./assets/cover.png);
+
+    --border-color: black;
+    --border-thickness: 10ch;
+    --border-type: ridge;
+
+
+    /* --footer-image: url(./assets/cover.png); */
+    /* --menu-bg-color: blue; */
+
+    --explosion-invert: invert(1);
+
+}
+
+
+
+
+
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 10 ch black ridge;
+    /* border: 10 ch var() ridge; */
     padding: 10ch;
     background-position: 0%;
     margin: 0px;
@@ -14,12 +39,11 @@ body {
 }
 
 main{
-    border: 10ch black ridge;
+    border: var(--border-thickness) var(--border-color) var(--border-type);
 
-    /* border-image: url(./assets/cover.png) 200 round; */
-    /* background-repeat: auto; */
+    /* border-image: url(./assets/cover.png) 200 round;  */
+     /* background-repeat: auto; */
 
-    /* background-color: blue; */
 }
 
 #album_cover_img{
@@ -30,7 +54,6 @@ main{
 }
 
 .pcot-logo {
-    /* height: 150px; */
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -45,7 +68,6 @@ header {
     margin-bottom: 30px;
     padding: 5px;
     border-radius: 17px;
-    /* width: 50vw; */
     width: fit-content;
     min-width: 300px;
     margin:auto;
@@ -95,9 +117,8 @@ footer {
 
 
 .explosion {
-/* 
-    -webkit-filter: invert(1);
-    filter: invert(1); */
+    -webkit-filter: var(--explosion-invert);
+    filter: var(--explosion-invert);
 }
 
 section{
