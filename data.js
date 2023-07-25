@@ -1,6 +1,6 @@
 var data = [
     {
-        "name" :  'Tubis by Kat Mazur!',
+        "name" :  '"Tubis" by Kat Mazur',
         "url" : "./Artists/KatMazur/tubis"
     },
     {
