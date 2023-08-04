@@ -27,7 +27,7 @@ var data = [
     },
     {  
         "name" : "Apple Music", 
-        "url" : "https://tandy.bandcamp.com/track/tubis", 
+        "url" : "https://music.apple.com/us/album/tubis-single/1700903478", 
         "font_color" : "blue", 
         "bg_color" : "red", 
         "hover_color" : "rgb(100 5 5)"  
