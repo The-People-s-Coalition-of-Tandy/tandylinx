@@ -1,5 +1,9 @@
 var data = [
     {
+        "name" :  '"In Here" by Leah Jacobson',
+        "url" : "https://tandy.bandcamp.com/merch/in-here-leah-jacobson?fbclid=IwAR0SF1zB4FkKjH_7KUQwBg-xaYHf6dzaNTa5jE1H47PpvYlPVXInZNFD6KI"
+    },
+    {
         "name" :  '"Tubis" by Kat Mazur',
         "url" : "./Artists/KatMazur/tubis"
     },
@@ -10,14 +14,6 @@ var data = [
     {
         "name" :  "PCoT Website",
         "url" : "https://pcotandy.org"
-    },
-    {
-        "name" :  '"EV1" by LE1',
-        "url" : "https://www.pcotandy.org/EV1/"
-    },
-    {
-        "name" :  '"Lands End" by Ko T. C.',
-        "url" : "https://www.pcotandy.org/LandsEnd/"
     },
     {
         "name" :  "Get Coalition News",
