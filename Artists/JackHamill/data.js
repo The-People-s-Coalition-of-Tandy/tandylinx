@@ -33,7 +33,7 @@ var data = [
     {
         "name" :  "PCoT Website",
         "url" : "https://pcotandy.org",
-        "font_color" : "pink",
+        "font_color" : "#646464",
         "bg_color" : "rgb(200, 200, 200)",
         "hover_color" : "darkgray"
     },

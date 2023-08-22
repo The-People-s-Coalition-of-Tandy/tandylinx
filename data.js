@@ -1,15 +1,15 @@
 var data = [
     {
-        "name" :  '"In Here" by Leah Jacobson',
-        "url" : "https://tandy.bandcamp.com/merch/in-here-leah-jacobson?fbclid=IwAR0SF1zB4FkKjH_7KUQwBg-xaYHf6dzaNTa5jE1H47PpvYlPVXInZNFD6KI"
+        "name" :  '°‚°‚°‚°‚°‚°⌠ƞɛᶉ𝐌𝐈𝐃𝐈𝐕𝐎𝐗#5…√ƞɛᶉßʃ▼ßʃ°°ɱ‚°‚°‚°‚°‚°‚° by Jack Hamill',
+        "url" : "./Artists/JackHamill/"
     },
     {
-        "name" :  '"Tubis" by Kat Mazur',
+        "name" :  'In Here by Leah Jacobson',
+        "url" : "https://tandy.bandcamp.com/merch/in-here-leah-jacobson"
+    },
+    {
+        "name" :  'Tubis by Kat Mazur!',
         "url" : "./Artists/KatMazur/tubis"
-    },
-    {
-        "name" :  '"Into the Blue" by BLUE DISH',
-        "url" : "https://bluedish.pcotandy.org/"
     },
     {
         "name" :  "PCoT Website",
