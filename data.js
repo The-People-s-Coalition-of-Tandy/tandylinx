@@ -1,5 +1,9 @@
 var data = [
     {
+        "name" :  'The Tuesdayverse (Online Gallery)',
+        "url" : "https://tuesdayverse.pcotandy.org/"
+    },
+    {
         "name" :  'Deep Blue by BLUE DISH',
         "url" : "https://bluedish.pcotandy.org/"
     },
