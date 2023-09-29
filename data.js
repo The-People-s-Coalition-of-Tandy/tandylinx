@@ -1,5 +1,9 @@
 var data = [
     {
+        "name" :  'Diamant by Plaieboi',
+        "url" : "./Artists/Plaieboi/Diamant/index.html"
+    },
+    {
         "name" :  'The Tuesdayverse (Online Gallery)',
         "url" : "https://tuesdayverse.pcotandy.org/"
     },

@@ -25,6 +25,13 @@ var data = [
         "bg_color" : "darkred", 
         "hover_color" : "rgb(100 5 5)"  
     },
+    {  
+        "name" : "Follow Plaieboi", 
+        "url" : "https://www.instagram.com/plaieboi/", 
+        "font_color" : "red", 
+        "bg_color" : "pink", 
+        "hover_color" : "rgb(100 5 5)"  
+    },
     {
         "name" :  "PCoT Website",
         "url" : "https://pcotandy.org",
