@@ -12,6 +12,13 @@ var data = [
         "hover_color" : "rgb(100 100 180)"  
     }, 
     {  
+        "name" : "Visualizer (Youtube)", 
+        "url" : "https://www.youtube.com/watch?si=F5gLQldmszNKlaZ-&fbclid=IwAR0hm6CxFg-1U4P-YF4iQ-UrCBB3xHRksbfdIkojGwpGkevZs-HIt7ptuBk&v=3nV3fKBWqRE&feature=youtu.be&ab_channel=People%27sCoalitionofTandy", 
+        "font_color" : "red", 
+        "bg_color" : "blanchedalmond", 
+        "hover_color" : "rgb(180 200 10)"  
+    }, 
+    {  
          "name" : "Spotify", 
         "url" : "https://open.spotify.com/track/7H0H35jRCxF9U84m9788Rv?si=2cdeb1b8495f4d81", 
         "font_color" : "snow", 
