@@ -108,7 +108,6 @@ footer {
 }
 
 section {
-
     width: fit-content;
     margin: auto;
 }
@@ -131,4 +130,20 @@ canvas {
     left: 0;
     pointer-events: none;
     z-index: 9999;
+}
+
+@media only screen and (max-width: 600px){
+    main {
+        max-width: 80%;
+    }
+
+    .link {
+        min-width: fit-content;
+        padding: 15px;
+    }
+    
+    header{
+        min-width: fit-content;
+        /* padding: 15px; */
+    }
 }
