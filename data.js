@@ -1,19 +1,15 @@
 var data = [
     {
+        "name" :  'tupping time plus by Calvin Grad',
+        "url" : "https://tandy.bandcamp.com/album/tupping-time-plus"
+    },
+    {
         "name" :  'Diamant by Plaieboi',
         "url" : "./Artists/Plaieboi/Diamant/index.html"
     },
     {
         "name" :  'The Tuesdayverse (Online Gallery)',
         "url" : "https://tuesdayverse.pcotandy.org/"
-    },
-    {
-        "name" :  'Deep Blue by BLUE DISH',
-        "url" : "https://bluedish.pcotandy.org/"
-    },
-    {
-        "name" :  '°‚°‚°‚°‚°‚°⌠ƞɛᶉ𝐌𝐈𝐃𝐈𝐕𝐎𝐗#5…√ƞɛᶉßʃ▼ßʃ°°ɱ‚°‚°‚°‚°‚°‚° by Jack Hamill',
-        "url" : "./Artists/JackHamill/"
     },
     {
         "name" :  'In Here by Leah Jacobson',
