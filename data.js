@@ -1,5 +1,9 @@
 var data = [
     {
+        "name" :  '2024 General MIDI Competition',
+        "url" : "https://midicompetition.pcotandy.org/2024/signup.html"
+    },
+    {
         "name" :  'tupping time plus by Calvin Grad',
         "url" : "https://tandy.bandcamp.com/album/tupping-time-plus"
     },
@@ -10,10 +14,6 @@ var data = [
     {
         "name" :  'The Tuesdayverse (Online Gallery)',
         "url" : "https://tuesdayverse.pcotandy.org/"
-    },
-    {
-        "name" :  'In Here by Leah Jacobson',
-        "url" : "https://tandy.bandcamp.com/merch/in-here-leah-jacobson"
     },
 
     {
