@@ -1,12 +1,13 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     border: 10 ch black ridge;
     padding: 10ch;
     background-position: 0%;
     /* background-color: rgb(116, 5, 124); */
-    background-color: #0057b8 ;
+    background-color: #b80000 ;
     margin: 0px;
     padding: 0px;
     background-image: url('./assets/arabesque.png');
@@ -16,10 +17,16 @@ body {
 
 main {
     border: 50px rgba(255, 166, 0, 0) ridge;
-    margin-top: 3%;
-    background-color: rgb(190, 149, 15);
-    background-image: url('./assets/black-linen.png');
+    /* background-color: rgb(190, 149, 15); */
+    margin-top: 5%;
+    background-color: rgb(208, 222, 151);
+    background-image: url('./assets/light-grey-floral-motif.png');
     position: relative;
+}
+
+#spacer {
+    height: 150px;
+    background-color: tomato;
 }
 
 #album_cover_img {
@@ -45,7 +52,6 @@ header {
     margin-bottom: 30px;
     padding: 5px;
     border-radius: 17px;
-    /* width: 50vw; */
     width: fit-content;
     min-width: 300px;
     margin: auto;
@@ -62,24 +68,18 @@ header {
 }
 
 .link {
-    /* background-color: rgb(200, 200, 200); */
-    /* height: 45px; */
-    /* background-color: rgb(134, 11, 11); */
-    background-color: #ffd700 ;
+    background-color: rgb(225, 195, 214);
     padding: 10px 0px;
     font-size: 18pt;
     cursor: pointer;
     border-radius: 100px;
-    border: 3px outset rgb(24, 107, 250);
+    border: 3px outset rgb(164, 96, 139);
     text-decoration: none;
     text-align: center;
-    /* color: rgb(240, 246, 240); */
-    color: black;
-    /* line-height: 40px; */
+    color: #2525d5;;
     width: 50%;
     min-width: 350px;
     background-image: url('./assets/light-grey-floral-motif.png');
-    /* max-width: 600px;  */
 }
 
 .link:hover,
@@ -100,41 +100,35 @@ footer {
     padding: 20px;
 }
 
-
-.explosion {
-    /* 
-    -webkit-filter: invert(1);
-    filter: invert(1); */
-}
-
 section {
     width: fit-content;
     margin: auto;
 }
 
 .tandyLinx {
-
     width: calc(100% - 200px);
 }
 
 main canvas {
     position: absolute;
+    pointer-events: none;
     top: -100px;
     left: -100px;
     z-index: 2;
 }
 
-canvas {
+#wheat canvas {
     position: fixed;
-    top: 0;
+    bottom: 0;
     left: 0;
     pointer-events: none;
+    height: 100dvh;
     z-index: 9999;
 }
 
 @media only screen and (max-width: 600px){
     main {
-        max-width: 80%;
+        max-width: 50%;
     }
 
     .link {

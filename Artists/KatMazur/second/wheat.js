@@ -29,7 +29,7 @@ let wheat = function(p){
         this.x=p.random(p.width);
       }
       
-      p.stroke('#F5DEB3')
+      p.stroke('#5cad64')
       p.strokeWeight(1.5);
       p.point(this.x, this.y);
       

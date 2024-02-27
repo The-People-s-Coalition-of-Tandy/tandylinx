@@ -7,6 +7,7 @@ let embroideryFrame = function (p) {
   let div = document.querySelector("#mainDiv");
   
   let embroidery = [];
+
   
   p.setup = function() {
     var embroideryCanvas = p.createCanvas(div.offsetWidth + BORDER_WIDTH, div.offsetHeight + BORDER_WIDTH);
@@ -23,6 +24,8 @@ let embroideryFrame = function (p) {
     p.imageMode(p.CENTER);
     p.angleMode(p.DEGREES);
     p.rectMode(p.CENTER);
+    
+    setTimeout(() => {p.noLoop()}, 6000)
     // frameRate()
   }
   
@@ -150,4 +153,4 @@ let embroideryFrame = function (p) {
   }   
 }
 
-new p5(embroideryFrame);
+const embroidery = new p5(embroideryFrame);

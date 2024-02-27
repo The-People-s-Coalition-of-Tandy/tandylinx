@@ -1,6 +1,6 @@
 var artist = "Katarina Mazur";  
-var title = "Tubis by Katarina Mazur";  
-var album_cover_url_src = "./assets/cover.png";  
+var title = "Ай ну люлі";  
+var album_cover_url_src = "./assets/cover-min.png";  
 var backgroundColor = "";  
  
 var data = [  
