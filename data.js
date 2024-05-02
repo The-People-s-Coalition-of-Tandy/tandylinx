@@ -1,8 +1,12 @@
 var data = [
     {
-        "name" :  '2024 General MIDI Competition',
-        "url" : "https://midicompetition.pcotandy.org/2024/signup.html"
+        "name" :  '2024 MIDI Competition Webpage',
+        "url" : "https://midicompetition.pcotandy.org/"
     },
+    {
+        "name" :  '2024 MIDI Competition Album',
+        "url" : "https://tandy.bandcamp.com/album/33rd-general-midi-competition-the-pcot-2024-metaball-lyke-baron-prime-competition-zrainbow-geometrie-740"
+    }, 
     {
         "name" :  'tupping time plus by Calvin Grad',
         "url" : "https://tandy.bandcamp.com/album/tupping-time-plus"
