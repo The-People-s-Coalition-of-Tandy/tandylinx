@@ -1,5 +1,9 @@
 var data = [
     {
+        "name" :  'Chris Weisman – Time Machine',
+        "url" : "https://youtu.be/C-Zrnf_oyuY?si=Ch8ObRFp-ejcVWpT"
+    },
+    {
         "name" :  '2024 MIDI Competition Webpage',
         "url" : "https://midicompetition.pcotandy.org/"
     },
@@ -11,15 +15,6 @@ var data = [
         "name" :  'tupping time plus by Calvin Grad',
         "url" : "https://tandy.bandcamp.com/album/tupping-time-plus"
     },
-    {
-        "name" :  'Diamant by Plaieboi',
-        "url" : "./Artists/Plaieboi/Diamant/index.html"
-    },
-    {
-        "name" :  'The Tuesdayverse (Online Gallery)',
-        "url" : "https://tuesdayverse.pcotandy.org/"
-    },
-
     {
         "name" :  "PCoT Website",
         "url" : "https://pcotandy.org"
