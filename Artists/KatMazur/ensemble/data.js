@@ -3,9 +3,17 @@ var title = "Ай ну люлі";
 var album_cover_url_src = "./assets/cover-min.png";
 var backgroundColor = "";
 
-var data = [{
-        "name": "Youtube",
-        "url": "https://youtu.be/LXR7h7mfvDE",
+var data = [
+    {
+        "name": "Ай ну люлі Video",
+        "url": "https://youtu.be/2zfUIc63BZo",
+        "font_color": "red",
+        "bg_color": "rgb(300 600 50)",
+        "hover_color": "rgb(100 100 180)"
+    },
+    {
+        "name": "Ай ну люлі (Demo) Video",
+        "url": "https://youtu.be/2NA8_oCWxog",
         "font_color": "red",
         "bg_color": "rgb(300 600 50)",
         "hover_color": "rgb(100 100 180)"
