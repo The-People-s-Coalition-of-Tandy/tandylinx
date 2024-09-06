@@ -45,7 +45,7 @@ header {
 
 .link {
     background-color: pink;
-    height: 45px;
+    min-height: 45px;
     font-size: 18pt;
     cursor: pointer;
     border-radius: 100px;
