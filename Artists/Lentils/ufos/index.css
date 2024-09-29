@@ -9,7 +9,7 @@ html, body {
 }
 
 html {
-    background-image: url("./assets/images/scrolling2.png");
+    background-image: url("./assets/images/scrolling2.jpg");
     background-size: 100%;
     animation: scrolling-background 90s linear alternate infinite;
 }
@@ -34,7 +34,7 @@ main {
 }
 
 main::before{
-    background-image: url("./assets/images/crosshatch.png");
+    background-image: url("./assets/images/crosshatch.jpg");
     background-size: 200px;
     content: "";
     display: block;
@@ -44,8 +44,8 @@ main::before{
     left: 0;
     width: 100%;
     /* background-color: rgba(220, 235, 255,0.8); */
-    mix-blend-mode: color-dodge;
-    animation: scrolling-background 60s linear reverse infinite;
+    mix-blend-mode: color-burn;
+    /* animation: scrolling-background 60s linear reverse infinite; */
 }
 
 .album-cover {
@@ -65,8 +65,8 @@ main::before{
     cursor: pointer;
     width: 150px;
     text-align: center;
-    background-image: url(./assets/images/crosshatch.png);
-    background-image: url(./assets/images/yellowscreenshot.png);
+
+    background-image: url(./assets/images/yellowscreenshot_min.png);
     /* background-blend-mode: color-burn; */
     background-size: 200px;
     /* color: white; */
@@ -182,7 +182,9 @@ main::before{
     width: 90%;
     color: white;
     font-size: 1.3em;
-
+    text-align: center;
+    background-color: black;
+    padding: 10px;
 }
 
 
