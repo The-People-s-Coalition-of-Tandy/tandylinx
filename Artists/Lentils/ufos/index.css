@@ -1,0 +1,220 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    background-image: url("./assets/images/scrolling2.png");
+    background-size: 600px;
+
+    animation: scrolling-background 70s linear infinite;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    /* background-color: antiquewhite; */
+    /* border: 2px dotted black; */
+    width: 600px;
+    max-width: 100%;
+    margin-top: 50px;
+    position: relative;
+
+    margin-bottom: 30px;
+    margin-top: 0;
+    padding-bottom: 30px;
+    border-bottom: 5px solid black;
+}
+
+main::before{
+    background-image: url("./assets/images/crosshatch.png");
+    background-size: 200px;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* background-color: rgba(220, 235, 255,0.8); */
+    mix-blend-mode: color-dodge;
+    animation: scrolling-background 60s linear reverse infinite;
+}
+
+.album-cover {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 20px;
+    position: relative;
+}
+
+.tandylinx-button {
+    background-color: #f5f34d;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    width: 150px;
+    text-align: center;
+    background-image: url(./assets/images/crosshatch.png);
+    background-image: url(./assets/images/yellowscreenshot.png);
+    /* background-blend-mode: color-burn; */
+    background-size: 200px;
+    /* color: white; */
+    letter-spacing: 2px;
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+
+.title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0;
+    mix-blend-mode: color-burn;
+    color: black;
+    mix-blend-mode: normal;
+    position: relative;
+    /* color: whitesmoke; */
+}
+
+.titles {
+    background-color: aliceblue;
+    /* border: 2px solid black; */
+    /* background-blend-mode: color-burn; */
+    mix-blend-mode: exclusion;
+    position: relative;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-size: 400px;
+}
+
+.album-name {
+    font-size: 1.2em;
+    margin: 10px;
+    position: relative;
+    /* color: whitesmoke; */
+}
+
+.titles::before{
+    /* background-image: url("./assets/images/red_dots.png"); */
+        content: "";
+        display: block;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgba(220, 235, 255,0.8);
+        mix-blend-mode: lighten;
+}
+
+.shield {
+    position: relative;
+}
+
+@-webkit-keyframes scrolling-background {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 0px 4000px;
+    }
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+    filter: drop-shadow(0 0 0.75rem black);
+    animation: sidetoside 2s linear infinite alternate;
+    margin: 0 auto;
+}
+
+@keyframes sidetoside {
+    from {
+        transform: translateX(-20vw);
+    }
+    to {
+        transform: translateX(20vw);
+    }
+}
+
+.nest-container.wiki {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 400px;
+   max-width: 95%;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+.nest-container {
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    max-width: 100%;
+}
+
+.lyric.behind {
+    position: absolute ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    color: white;
+    font-size: 1.3em;
+
+}
+
+
+.nest-image {
+    aspect-ratio: 1;
+    width: 400px;
+    max-width: calc(100% - 6px);
+    border: gray 3px inset;
+    border-bottom: 1px black solid;
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.colormark {
+    width: 50px;
+    margin: 0 auto;
+    transform: rotate(45deg);
+}
+
+.bw-circle {
+    width: 90%;
+}
+
+.wiki-description {
+    width: calc(100% - 20px);
+    max-width: calc(100% - 26px);
+    background-color: aliceblue;
+    border: gray 3px inset;
+    border-top: none;
+    padding: 10px;
+}
