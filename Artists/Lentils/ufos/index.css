@@ -123,7 +123,7 @@ main::before{
     position: relative;
 }
 
-@-webkit-keyframes scrolling-background {
+@keyframes scrolling-background {
     from {
         background-position: 0 0;
     }
@@ -230,4 +230,17 @@ main::before{
     background-color: white;
     margin-top: 10px;
     margin-bottom: 20px;
+}
+
+.nest-image.three {
+    background-image: url("assets/images/Nest 3.jpg");
+    background-size: cover;
+}
+.nest-image.four {
+    background-image: url("assets/images/Nest 4.jpg");
+    background-size: cover;
+}
+.nest-image.five {
+    background-image: url("assets/images/Nest 5.jpg");
+    background-size: cover;
 }
